@@ -1,0 +1,5 @@
+fuglu_control stats
+fuglu_control uptime
+fuglu_control workerlist
+fuglu_control threadlist
+fuglu_control exceptionlist
