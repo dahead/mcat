@@ -1,0 +1,1 @@
+service fuglu restart
