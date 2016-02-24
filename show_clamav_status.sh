@@ -1,1 +1,1 @@
-/etc/init.d/clamav-daemon status
+service clamav-daemon status
