@@ -1,14 +1,14 @@
 #!/bin/bash
-/etc/init.d/fuglu stop
-/etc/init.d/fail2ban stop
-/etc/init.d/clamav-daemon stop
-/etc/init.d/spamassassin stop
-/etc/init.d/dovecot stop
-/etc/init.d/postfix stop
+service fuglu stop
+service fail2ban stop
+service clamav-daemon stop
+service spamassassin stop
+service dovecot stop
+service postfix stop
 # start again...
-/etc/init.d/postfix start
-/etc/init.d/dovecot start
-/etc/init.d/spamassassin start
-/etc/init.d/clamav-daemon start
-/etc/init.d/fail2ban start
-/etc/init.d/fuglu start
+service postfix start
+service dovecot start
+service spamassassin start
+service clamav-daemon start
+service fail2ban start
+service fuglu start
