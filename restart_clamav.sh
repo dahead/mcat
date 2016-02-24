@@ -1,0 +1,1 @@
+service clamav-daemon restart
