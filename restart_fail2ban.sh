@@ -1,1 +1,1 @@
-/etc/init.d/fail2ban restart
+service fail2ban restart
