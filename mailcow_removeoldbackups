@@ -1,5 +1,7 @@
-
 #!/bin/bash
+#
+# should be placed in /etc/cron.weekly/
+#
 # Get backup folder
 source $(grep MC_MBOX_BACKUP_ENV /var/www/mail/inc/vars.inc.php | cut -d'"' -f2)
 # echo $LOCATION
